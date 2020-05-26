@@ -19,12 +19,12 @@ počet_vypsaných_bajtů:  výpis_bajtů_hexa výpis_bajtů_ASCII
 
 (takto vypíšete úplně celý paket)
 
-Příklady volání:
-./ipk-sniffer -i eth0 -p 23 --tcp -n 2
-./ipk-sniffer -i eth0 --udp
-./ipk-sniffer -i eth0 -n 10      
-./ipk-sniffer -i eth0 -p 22 --tcp --udp   .... stejné jako:
-./ipk-sniffer -i eth0 -p 22
+Příklady volání:\
+./ipk-sniffer -i eth0 -p 23 --tcp -n 2\
+./ipk-sniffer -i eth0 --udp\
+./ipk-sniffer -i eth0 -n 10\
+./ipk-sniffer -i eth0 -p 22 --tcp --udp   .... stejné jako:\
+./ipk-sniffer -i eth0 -p 22\
 ./ipk-sniffer -i eth0
 
 Příklady výstupu:
