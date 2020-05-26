@@ -10,16 +10,16 @@ kde:\
 -t nebo --tcp (bude zobrazovat pouze tcp pakety)\
 -u nebo --udp (bude zobrazovat pouze udp pakety)\
 Pokud nebude -tcp ani -udp specifikováno, uvažují se TCP a UDP pakety zároveň\
--n 10 (určuje počet paketů, které se mají zobrazit; pokud není uvedeno, uvažujte zobrazení pouze 1 paket)\
+-n 10 (určuje počet paketů, které se mají zobrazit; pokud není uvedeno, uvažujte zobrazení pouze 1 paket)
 
-Formát výstupu:\
-čas IP|FQDN : port > IP|FQDN : port\
+Formát výstupu:
+čas IP|FQDN : port > IP|FQDN : port
 
-počet_vypsaných_bajtů:  výpis_bajtů_hexa výpis_bajtů_ASCII\
+počet_vypsaných_bajtů:  výpis_bajtů_hexa výpis_bajtů_ASCII
 
-(takto vypíšete úplně celý paket)\
+(takto vypíšete úplně celý paket)
 
-Příklady volání:\
+Příklady volání:
 ./ipk-sniffer -i eth0 -p 23 --tcp -n 2
 ./ipk-sniffer -i eth0 --udp
 ./ipk-sniffer -i eth0 -n 10      
@@ -27,7 +27,7 @@ Příklady volání:\
 ./ipk-sniffer -i eth0 -p 22
 ./ipk-sniffer -i eth0
 
-Příklady výstupu:\
+Příklady výstupu:
 ```
 11:52:49.079012 pcvesely.fit.vutbr.cz : 4093 > 10.10.10.56 : 80
 
