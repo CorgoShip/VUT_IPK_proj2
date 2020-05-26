@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ipk-sniffer": {
+      "commandName": "Project",
+      "commandLineArgs": "-i eth012",
+      "remoteDebugEnabled": false,
+      "remoteDebugMachine": "Trusty"
+    }
+  }
+}
