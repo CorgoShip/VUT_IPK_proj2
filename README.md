@@ -2,7 +2,7 @@
 Navrhněte a implementujte síťový analyzátor v C/C++/C#, který bude schopný na určitém síťovém rozhraním zachytávat a filtrovat pakety (13 b) 
 
 ## UPŘESNĚNÍ ZADÁNÍ:
-Volání programu:
+Volání programu:\
 `./ipk-sniffer -i rozhraní [-p ­­port] [--tcp|-t] [--udp|-u] [-n num]`\
 kde:\
 -i eth0 (rozhraní, na kterém se bude poslouchat. Nebude-li tento parametr uveden, vypíše se seznam aktivních rozhraní)\
@@ -12,7 +12,7 @@ kde:\
 Pokud nebude -tcp ani -udp specifikováno, uvažují se TCP a UDP pakety zároveň\
 -n 10 (určuje počet paketů, které se mají zobrazit; pokud není uvedeno, uvažujte zobrazení pouze 1 paket)
 
-Formát výstupu:
+Formát výstupu:\
 čas IP|FQDN : port > IP|FQDN : port
 
 počet_vypsaných_bajtů:  výpis_bajtů_hexa výpis_bajtů_ASCII
